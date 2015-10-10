@@ -1,0 +1,8 @@
+7
+keyboardcontext Resources/Input/KeyboardContext.txt
+keyboardmenucontext Resources/Input/KeyboardMenuContext.txt
+keyboardmainmenucontext Resources/Input/KeyboardMainMenuContext.txt
+keyboardpausemenucontext Resources/Input/KeyboardPauseMenuContext.txt
+keyboardsoundmenucontext Resources/Input/KeyboardSoundMenuContext.txt
+keyboardarenawinnercontext Resources/Input/KeyboardArenaWinnerContext.txt
+keyboardcreditsmenucontext Resources/Input/KeyboardCreditsMenuContext.txt

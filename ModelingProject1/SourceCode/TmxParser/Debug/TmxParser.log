@@ -1,0 +1,81 @@
+﻿Build started 13/08/2011 06:43:13 p.m..
+     1>Project "D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\TmxParser\TmxParser.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\TmxParser\lib\".
+       InitializeBuildStatus:
+         Creating "Debug\TmxParser.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D NULL=0 /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TmxImage.cpp TmxLayer.cpp TmxMap.cpp TmxObject.cpp TmxObjectGroup.cpp TmxPropertySet.cpp TmxTile.cpp TmxTileset.cpp TmxUtil.cpp tinyxml\tinystr.cpp tinyxml\tinyxml.cpp tinyxml\tinyxmlerror.cpp tinyxml\tinyxmlparser.cpp base64\base64.cpp
+         base64.cpp
+         tinyxmlparser.cpp
+         tinyxmlerror.cpp
+         tinyxml.cpp
+         tinystr.cpp
+         TmxUtil.cpp
+         TmxTileset.cpp
+         TmxTile.cpp
+         TmxPropertySet.cpp
+         TmxObjectGroup.cpp
+         TmxObject.cpp
+         TmxMap.cpp
+         TmxLayer.cpp
+         TmxImage.cpp
+         Generating Code...
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D NULL=0 /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt zlib\adler32.c zlib\compress.c zlib\crc32.c zlib\deflate.c zlib\gzclose.c zlib\gzlib.c zlib\gzread.c zlib\gzwrite.c zlib\infback.c zlib\inffast.c zlib\inflate.c zlib\inftrees.c zlib\trees.c zlib\uncompr.c zlib\zutil.c
+         zutil.c
+         uncompr.c
+         trees.c
+         inftrees.c
+         inflate.c
+         inffast.c
+         infback.c
+         gzwrite.c
+         gzread.c
+         gzlib.c
+         gzclose.c
+         deflate.c
+         crc32.c
+         compress.c
+         adler32.c
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\TmxParser\lib\TmxParser.lib) does not match the Library's OutputFile property value (D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\TmxParser\lib\TmxParserd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(TmxParser) does not match the Library's OutputFile property value (TmxParserd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\TmxParser\lib\TmxParserd.lib" /NOLOGO Debug\TmxImage.obj
+         Debug\TmxLayer.obj
+         Debug\TmxMap.obj
+         Debug\TmxObject.obj
+         Debug\TmxObjectGroup.obj
+         Debug\TmxPropertySet.obj
+         Debug\TmxTile.obj
+         Debug\TmxTileset.obj
+         Debug\TmxUtil.obj
+         Debug\tinystr.obj
+         Debug\tinyxml.obj
+         Debug\tinyxmlerror.obj
+         Debug\tinyxmlparser.obj
+         Debug\base64.obj
+         Debug\adler32.obj
+         Debug\compress.obj
+         Debug\crc32.obj
+         Debug\deflate.obj
+         Debug\gzclose.obj
+         Debug\gzlib.obj
+         Debug\gzread.obj
+         Debug\gzwrite.obj
+         Debug\infback.obj
+         Debug\inffast.obj
+         Debug\inflate.obj
+         Debug\inftrees.obj
+         Debug\trees.obj
+         Debug\uncompr.obj
+         Debug\zutil.obj
+         TmxParser.vcxproj -> D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\TmxParser\lib\TmxParser.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\TmxParser.unsuccessfulbuild".
+         Touching "Debug\TmxParser.lastbuildstate".
+     1>Done Building Project "D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\TmxParser\TmxParser.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.34

@@ -1,0 +1,25 @@
+Loading File: Resources/Levels/Level One Japan/Section One/LevelOneSectionOneMap.tmx
+Loading List Walkable Tiles... 
+Number Of Walkable Tiles:  21
+Finish Loading List Walkable Tiles... 
+Loading Layers... 
+Loading Layer #00 - Floor
+Number Of Tiles With Collision:  155
+Finish Loading List Collision Tiles Of Layer 0
+Loading Layer #01 - Boxes
+Number Of Tiles With Collision:  174
+Finish Loading List Collision Tiles Of Layer 1
+Loading Layer #02 - Objects
+Number Of Tiles With Collision:  1
+Finish Loading List Collision Tiles Of Layer 2
+Loading Tilesets... 
+Loading Tileset #00
+Name: Level1_Floor_Tileset
+Margin: 0
+Spacing: 0
+Image Width: 2656
+Image Height: 1664
+Image Source: TileSet.png
+Transparent Color (hex): 
+Load Of Map Finished... 
+Closing File... 

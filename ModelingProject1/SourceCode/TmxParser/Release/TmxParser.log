@@ -1,0 +1,75 @@
+﻿Build started 13/08/2011 10:13:49 p.m..
+     1>Project "D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\TmxParser\TmxParser.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\TmxParser.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D NULL=0 /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TmxImage.cpp TmxLayer.cpp TmxMap.cpp TmxObject.cpp TmxObjectGroup.cpp TmxPropertySet.cpp TmxTile.cpp TmxTileset.cpp TmxUtil.cpp tinyxml\tinystr.cpp tinyxml\tinyxml.cpp tinyxml\tinyxmlerror.cpp tinyxml\tinyxmlparser.cpp base64\base64.cpp
+         TmxImage.cpp
+         TmxLayer.cpp
+         TmxMap.cpp
+         TmxObject.cpp
+         TmxObjectGroup.cpp
+         TmxPropertySet.cpp
+         TmxTile.cpp
+         TmxTileset.cpp
+         TmxUtil.cpp
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+         base64.cpp
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D NULL=0 /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt zlib\adler32.c zlib\compress.c zlib\crc32.c zlib\deflate.c zlib\gzclose.c zlib\gzlib.c zlib\gzread.c zlib\gzwrite.c zlib\infback.c zlib\inffast.c zlib\inflate.c zlib\inftrees.c zlib\trees.c zlib\uncompr.c zlib\zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+         gzread.c
+         gzwrite.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         zutil.c
+       Lib:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\TmxParser\lib\TmxParser.lib" /NOLOGO /LTCG Release\TmxImage.obj
+         Release\TmxLayer.obj
+         Release\TmxMap.obj
+         Release\TmxObject.obj
+         Release\TmxObjectGroup.obj
+         Release\TmxPropertySet.obj
+         Release\TmxTile.obj
+         Release\TmxTileset.obj
+         Release\TmxUtil.obj
+         Release\tinystr.obj
+         Release\tinyxml.obj
+         Release\tinyxmlerror.obj
+         Release\tinyxmlparser.obj
+         Release\base64.obj
+         Release\adler32.obj
+         Release\compress.obj
+         Release\crc32.obj
+         Release\deflate.obj
+         Release\gzclose.obj
+         Release\gzlib.obj
+         Release\gzread.obj
+         Release\gzwrite.obj
+         Release\infback.obj
+         Release\inffast.obj
+         Release\inflate.obj
+         Release\inftrees.obj
+         Release\trees.obj
+         Release\uncompr.obj
+         Release\zutil.obj
+         TmxParser.vcxproj -> D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\TmxParser\lib\TmxParser.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\TmxParser.unsuccessfulbuild".
+         Touching "Release\TmxParser.lastbuildstate".
+     1>Done Building Project "D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\TmxParser\TmxParser.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.88

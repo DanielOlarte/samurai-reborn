@@ -1,0 +1,8 @@
+7
+gamepadcontext Resources/Input/GamepadContext.txt
+gamepadmenucontext Resources/Input/GamepadMenuContext.txt
+gamepadmainmenucontext Resources/Input/GamepadMainMenuContext.txt
+gamepadpausemenucontext Resources/Input/GamepadPauseMenuContext.txt
+gamepadsoundmenucontext Resources/Input/GamepadSoundMenuContext.txt
+gamepadarenawinnercontext Resources/Input/GamepadArenaWinnerContext.txt
+gamepadcreditsmenucontext Resources/Input/GamepadCreditsMenuContext.txt

@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{02426EBF-3E86-4558-915F-04E6F785622F}</ProjectGuid>
+    <RootNamespace>SourceCode</RootNamespace>
+    <SccProjectName>&lt;Project Location In Database&gt;</SccProjectName>
+    <SccAuxPath>&lt;Source Control Database&gt;</SccAuxPath>
+    <SccLocalPath>&lt;Local Binding Root of Project&gt;</SccLocalPath>
+    <SccProvider>Mercurial Source Control Package</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Game States;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Game States\Arenas;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Characters\Enemies;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Game States\Menus\Callback Structs;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Game Physics\Physic Modes;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Input\Player;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Characters\Character States;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\GUI\Elements;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Graphics\Image;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Graphics\Text;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Graphics\Font;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Characters\Players;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\System;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Game Physics\Collisions;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Game States\Menus;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Game States\Levels;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Weapons;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Level Design;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Input;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\GUI;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Graphics;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Game Physics;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Game Core;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\Characters;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\AI;C:\Program Files %28x86%29\boost\boost_1_46_1;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Programmers API Win32\api\inc;D:\SDL - DLL, INC, LIB\include files;D:\Users\Silex RPR\Documents\Visual Studio 2010\Projects\Test\ModelingProject1\SourceCode\TmxParser;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>D:\SDL - DLL, INC, LIB\lib files;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Programmers API Win32\api\lib;C:\Program Files %28x86%29\boost;$(LibraryPath)</LibraryPath>
+    <IntDir>.\Debug\</IntDir>
+    <OutDir>..\..\..\..\Configuration\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\boost\boost_1_46_1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fmodex_vc.lib;TmxParserd.lib;opengl32.lib;SDL.lib;SDLmain.lib;SDL_image.lib;SDL_ttf.lib;XInput.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalOptions>fmodex_vc.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AI\AI.cpp" />
+    <ClCompile Include="AI\HeapCompare.cpp" />
+    <ClCompile Include="AI\LevelGraph.cpp" />
+    <ClCompile Include="AI\Pathfinding.cpp" />
+    <ClCompile Include="AI\PathNode.cpp" />
+    <ClCompile Include="Characters\Character States\DoubleJumpState.cpp" />
+    <ClCompile Include="Characters\Character States\FallingState.cpp" />
+    <ClCompile Include="Characters\Character States\FastAttackState.cpp" />
+    <ClCompile Include="Characters\Character States\JumpingState.cpp" />
+    <ClCompile Include="Characters\Character States\PlayerState.cpp" />
+    <ClCompile Include="Characters\Character States\PlayerStateManager.cpp" />
+    <ClCompile Include="Characters\Character States\RunningState.cpp" />
+    <ClCompile Include="Characters\Character States\State.cpp" />
+    <ClCompile Include="Characters\Character States\StillState.cpp" />
+    <ClCompile Include="Characters\Character States\WalkingState.cpp" />
+    <ClCompile Include="Characters\Character.cpp" />
+    <ClCompile Include="Characters\Enemies\Enemy.cpp" />
+    <ClCompile Include="Characters\Enemies\EnemySprite.cpp" />
+    <ClCompile Include="Characters\Enemies\JapaneseMonkey.cpp" />
+    <ClCompile Include="Characters\Players\MeerkatP2.cpp" />
+    <ClCompile Include="Characters\Players\PandaP1.cpp" />
+    <ClCompile Include="Characters\Players\Player.cpp" />
+    <ClCompile Include="Characters\Players\PlayerSprite.cpp" />
+    <ClCompile Include="Characters\Players\Score.cpp" />
+    <ClCompile Include="Characters\Players\Stats.cpp" />
+    <ClCompile Include="Characters\Sprite.cpp" />
+    <ClCompile Include="Game Core\GameConfiguration.cpp" />
+    <ClCompile Include="Game Core\GameCore.cpp" />
+    <ClCompile Include="Game Core\GameSaves.cpp" />
+    <ClCompile Include="Game Core\GameScreen.cpp" />
+    <ClCompile Include="Game Core\GameSound.cpp" />
+    <ClCompile Include="Game Core\GameTimer.cpp" />
+    <ClCompile Include="Game Physics\Collisions\Collider.cpp" />
+    <ClCompile Include="Game Physics\Collisions\CollisionBox.cpp" />
+    <ClCompile Include="Game Physics\Collisions\CollisionStructs.cpp" />
+    <ClCompile Include="Game Physics\Physic Modes\PhysicsCore.cpp" />
+    <ClCompile Include="Game Physics\Physic Modes\RigidBody.cpp" />
+    <ClCompile Include="Game States\Arenas\Deathmatch.cpp" />
+    <ClCompile Include="Game States\GameState.cpp" />
+    <ClCompile Include="Game States\GameStateManager.cpp" />
+    <ClCompile Include="Game States\Levels\SLevelOneJapan.cpp" />
+    <ClCompile Include="Game States\Levels\SLevelTutorial.cpp" />
+    <ClCompile Include="Game States\LoadingScreen.cpp" />
+    <ClCompile Include="Game States\Menus\Callback Structs\MainMenuSelection.cpp" />
+    <ClCompile Include="Game States\Menus\Callback Structs\MenuSelection.cpp" />
+    <ClCompile Include="Game States\Menus\Callback Structs\MenuSelectionPlayer.cpp" />
+    <ClCompile Include="Game States\Menus\SArenaWinner.cpp" />
+    <ClCompile Include="Game States\Menus\SCredits.cpp" />
+    <ClCompile Include="Game States\Menus\SIntro.cpp" />
+    <ClCompile Include="Game States\Menus\SMainMenu.cpp" />
+    <ClCompile Include="Game States\Menus\SPause.cpp" />
+    <ClCompile Include="Game States\Menus\SPlayerSelection.cpp" />
+    <ClCompile Include="Game States\Menus\SSoundOptions.cpp" />
+    <ClCompile Include="Graphics\Animation.cpp" />
+    <ClCompile Include="Graphics\Camera.cpp" />
+    <ClCompile Include="Graphics\Font\GameFont.cpp" />
+    <ClCompile Include="Graphics\GameRender.cpp" />
+    <ClCompile Include="Graphics\Image\GameImage.cpp" />
+    <ClCompile Include="Graphics\Image\ImageController.cpp" />
+    <ClCompile Include="Graphics\Image\ImageHealth.cpp" />
+    <ClCompile Include="Graphics\Image\ImageObject.cpp" />
+    <ClCompile Include="Graphics\Image\MenuController.cpp" />
+    <ClCompile Include="Graphics\Text\GameText.cpp" />
+    <ClCompile Include="Graphics\Text\ScoreText.cpp" />
+    <ClCompile Include="Graphics\Text\TextObject.cpp" />
+    <ClCompile Include="GUI\Elements\PushButton.cpp" />
+    <ClCompile Include="GUI\Elements\SoundBar.cpp" />
+    <ClCompile Include="GUI\GUIManager.cpp" />
+    <ClCompile Include="GUI\GUIMenu.cpp" />
+    <ClCompile Include="Input\GameInput.cpp" />
+    <ClCompile Include="Input\GameInputContext.cpp" />
+    <ClCompile Include="Input\GameInputMapper.cpp" />
+    <ClCompile Include="Input\GameInputStructs.cpp" />
+    <ClCompile Include="Input\Player\Controller.cpp" />
+    <ClCompile Include="Input\Player\Gamepad.cpp" />
+    <ClCompile Include="Input\Player\Keyboard.cpp" />
+    <ClCompile Include="Level Design\Layer.cpp" />
+    <ClCompile Include="Level Design\Level.cpp" />
+    <ClCompile Include="Level Design\Tile.cpp" />
+    <ClCompile Include="Level Design\Tilemap.cpp" />
+    <ClCompile Include="Level Design\Tileset.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="System\File.cpp" />
+    <ClCompile Include="System\MathFunctions.cpp" />
+    <ClCompile Include="Weapons\Spear.cpp" />
+    <ClCompile Include="Weapons\Sword.cpp" />
+    <ClCompile Include="Weapons\Weapon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AI\AI.h" />
+    <ClInclude Include="AI\HeapCompare.h" />
+    <ClInclude Include="AI\LevelGraph.h" />
+    <ClInclude Include="AI\Pathfinding.h" />
+    <ClInclude Include="AI\PathNode.h" />
+    <ClInclude Include="Characters\Character States\DoubleJumpState.h" />
+    <ClInclude Include="Characters\Character States\FallingState.h" />
+    <ClInclude Include="Characters\Character States\FastAttackState.h" />
+    <ClInclude Include="Characters\Character States\JumpingState.h" />
+    <ClInclude Include="Characters\Character States\PlayerState.h" />
+    <ClInclude Include="Characters\Character States\PlayerStateManager.h" />
+    <ClInclude Include="Characters\Character States\RunningState.h" />
+    <ClInclude Include="Characters\Character States\State.h" />
+    <ClInclude Include="Characters\Character States\StillState.h" />
+    <ClInclude Include="Characters\Character States\WalkingState.h" />
+    <ClInclude Include="Characters\Character.h" />
+    <ClInclude Include="Characters\Enemies\Enemy.h" />
+    <ClInclude Include="Characters\Enemies\EnemySprite.h" />
+    <ClInclude Include="Characters\Enemies\JapaneseMonkey.h" />
+    <ClInclude Include="Characters\Players\MeerkatP2.h" />
+    <ClInclude Include="Characters\Players\PandaP1.h" />
+    <ClInclude Include="Characters\Players\Player.h" />
+    <ClInclude Include="Characters\Players\PlayerSprite.h" />
+    <ClInclude Include="Characters\Players\PlayerSpriteStates.h" />
+    <ClInclude Include="Characters\Players\Score.h" />
+    <ClInclude Include="Characters\Players\Stats.h" />
+    <ClInclude Include="Characters\Sprite.h" />
+    <ClInclude Include="Characters\SpriteDataConstants.h" />
+    <ClInclude Include="Game Core\GameConfiguration.h" />
+    <ClInclude Include="Game Core\GameCore.h" />
+    <ClInclude Include="Game Core\GameSaves.h" />
+    <ClInclude Include="Game Core\GameScreen.h" />
+    <ClInclude Include="Game Core\GameSound.h" />
+    <ClInclude Include="Game Core\GameTimer.h" />
+    <ClInclude Include="Game Physics\Collisions\Collider.h" />
+    <ClInclude Include="Game Physics\Collisions\CollisionBox.h" />
+    <ClInclude Include="Game Physics\Collisions\CollisionStructs.h" />
+    <ClInclude Include="Game Physics\Physic Modes\PhysicModes.h" />
+    <ClInclude Include="Game Physics\Physic Modes\PhysicsCore.h" />
+    <ClInclude Include="Game Physics\Physic Modes\RigidBody.h" />
+    <ClInclude Include="Game States\Arenas\Deathmatch.h" />
+    <ClInclude Include="Game States\GameState.h" />
+    <ClInclude Include="Game States\GameStateManager.h" />
+    <ClInclude Include="Game States\GameStatesData.h" />
+    <ClInclude Include="Game States\Levels\SLevelOneJapan.h" />
+    <ClInclude Include="Game States\Levels\SLevelTutorial.h" />
+    <ClInclude Include="Game States\LoadingScreen.h" />
+    <ClInclude Include="Game States\Menus\Callback Structs\MainMenuSelection.h" />
+    <ClInclude Include="Game States\Menus\Callback Structs\MenuSelection.h" />
+    <ClInclude Include="Game States\Menus\Callback Structs\MenuSelectionPlayer.h" />
+    <ClInclude Include="Game States\Menus\MenuData.h" />
+    <ClInclude Include="Game States\Menus\MenuStructs.h" />
+    <ClInclude Include="Game States\Menus\SArenaWinner.h" />
+    <ClInclude Include="Game States\Menus\SCredits.h" />
+    <ClInclude Include="Game States\Menus\SIntro.h" />
+    <ClInclude Include="Game States\Menus\SMainMenu.h" />
+    <ClInclude Include="Game States\Menus\SPause.h" />
+    <ClInclude Include="Game States\Menus\SPlayerSelection.h" />
+    <ClInclude Include="Game States\Menus\SSoundOptions.h" />
+    <ClInclude Include="Graphics\Animation.h" />
+    <ClInclude Include="Graphics\Camera.h" />
+    <ClInclude Include="Graphics\Font\GameFont.h" />
+    <ClInclude Include="Graphics\GameRender.h" />
+    <ClInclude Include="Graphics\Image\GameImage.h" />
+    <ClInclude Include="Graphics\Image\ImageController.h" />
+    <ClInclude Include="Graphics\Image\ImageHealth.h" />
+    <ClInclude Include="Graphics\Image\ImageObject.h" />
+    <ClInclude Include="Graphics\Image\MenuController.h" />
+    <ClInclude Include="Graphics\Text\GameText.h" />
+    <ClInclude Include="Graphics\Text\ScoreText.h" />
+    <ClInclude Include="Graphics\Text\TextObject.h" />
+    <ClInclude Include="GUI\Elements\Bar.h" />
+    <ClInclude Include="GUI\Elements\PushButton.h" />
+    <ClInclude Include="GUI\Elements\SoundBar.h" />
+    <ClInclude Include="GUI\GUIManager.h" />
+    <ClInclude Include="GUI\GUIMenu.h" />
+    <ClInclude Include="Input\GameInput.h" />
+    <ClInclude Include="Input\GameInputContext.h" />
+    <ClInclude Include="Input\GameInputMapper.h" />
+    <ClInclude Include="Input\GameInputStructs.h" />
+    <ClInclude Include="Input\Player\Controller.h" />
+    <ClInclude Include="Input\Player\Gamepad.h" />
+    <ClInclude Include="Input\Player\Keyboard.h" />
+    <ClInclude Include="Input\RawInputConstants.h" />
+    <ClInclude Include="Level Design\Layer.h" />
+    <ClInclude Include="Level Design\Level.h" />
+    <ClInclude Include="Level Design\Tile.h" />
+    <ClInclude Include="Level Design\Tilemap.h" />
+    <ClInclude Include="Level Design\Tileset.h" />
+    <ClInclude Include="System\File.h" />
+    <ClInclude Include="System\MathConstants.h" />
+    <ClInclude Include="System\MathFunctions.h" />
+    <ClInclude Include="System\StringParser.h" />
+    <ClInclude Include="System\Vector.h" />
+    <ClInclude Include="Weapons\Spear.h" />
+    <ClInclude Include="Weapons\Sword.h" />
+    <ClInclude Include="Weapons\Weapon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ambience.mp3" />
+    <None Include="box.png" />
+    <None Include="boxPanda.png" />
+    <None Include="Enemy - SpriteSheet.png" />
+    <None Include="Game Core\LevelSounds.txt" />
+    <None Include="Game Core\Musics.txt" />
+    <None Include="Resources\Arenas\Cave\CaveArenaMode.png" />
+    <None Include="Resources\Arenas\Cave\CaveArenaModeCollisionsLayer0.csv" />
+    <None Include="Resources\Arenas\Cave\CaveArenaModeMap.tmx" />
+    <None Include="Resources\Arenas\Cave\CaveArenaModeWalkableList.csv" />
+    <None Include="Resources\Characters\Players\Meerkat - SpriteSheet.png" />
+    <None Include="Resources\Characters\Players\Panda - SpriteSheet.png" />
+    <None Include="Resources\Characters\Players\WeaponCollisionBoxesMeerkat.txt" />
+    <None Include="Resources\Characters\Players\WeaponCollisionBoxesPanda.txt" />
+    <None Include="Resources\GUI\Cursor.png" />
+    <None Include="Resources\GUI\Fonts\orbitron-black.ttf" />
+    <None Include="Resources\Input\GamepadArenaWinnerContext.txt" />
+    <None Include="Resources\Input\GamepadContext.txt" />
+    <None Include="Resources\Input\GamepadContextList.txt" />
+    <None Include="Resources\Input\GamepadCreditsMenuContext.txt" />
+    <None Include="Resources\Input\GamepadMainMenuContext.txt" />
+    <None Include="Resources\Input\GamepadMenuContext.txt" />
+    <None Include="Resources\Input\GamepadPauseMenuContext.txt" />
+    <None Include="Resources\Input\GamepadSoundMenuContext.txt" />
+    <None Include="Resources\Input\KeyboardArenaWinnerContext.txt" />
+    <None Include="Resources\Input\KeyboardContext.txt" />
+    <None Include="Resources\Input\KeyboardContextList.txt" />
+    <None Include="Resources\Input\KeyboardCreditsMenuContext.txt" />
+    <None Include="Resources\Input\KeyboardMainMenuContext.txt" />
+    <None Include="Resources\Input\KeyboardMenuContext.txt" />
+    <None Include="Resources\Input\KeyboardPauseMenuContext.txt" />
+    <None Include="Resources\Input\KeyboardSoundMenuContext.txt" />
+    <None Include="Resources\Levels\Level One Japan\Section One\Clouds.png" />
+    <None Include="Resources\Levels\Level One Japan\Section One\LevelOneSectionOneCollisionList.csv" />
+    <None Include="Resources\Levels\Level One Japan\Section One\LevelOneSectionOneCollisionsLayer0.csv" />
+    <None Include="Resources\Levels\Level One Japan\Section One\LevelOneSectionOneCollisionsLayer1.csv" />
+    <None Include="Resources\Levels\Level One Japan\Section One\LevelOneSectionOneCollisionsLayer2.csv" />
+    <None Include="Resources\Levels\Level One Japan\Section One\LevelOneSectionOneMap.tmx" />
+    <None Include="Resources\Levels\Level One Japan\Section One\LevelOneSectionOneWalkableList.csv" />
+    <None Include="Resources\Levels\Level One Japan\Section One\Mountains0.png" />
+    <None Include="Resources\Levels\Level One Japan\Section One\Mountains1.png" />
+    <None Include="Resources\Levels\Level One Japan\Section One\SkyBackground.png" />
+    <None Include="Resources\Levels\Level One Japan\Section One\Tileset.png" />
+    <None Include="Resources\Menus\Arena Winner Menu\ArenaWinnerBackground.png" />
+    <None Include="Resources\Menus\Credits Menu\CreditsBackground.png" />
+    <None Include="Resources\Menus\Intro\LogoBrainstormInteractive.png" />
+    <None Include="Resources\Menus\Intro\LogoSamuraiReborn.png" />
+    <None Include="Resources\Menus\Loading State\CaveArenaMode.png" />
+    <None Include="Resources\Menus\Loading State\LevelOneSectionOne.png" />
+    <None Include="Resources\Menus\Loading State\LoadingBar.png" />
+    <None Include="Resources\Menus\Loading State\LoadingState.png" />
+    <None Include="Resources\Menus\Main Menu\MainMenuBackground.png" />
+    <None Include="Resources\Menus\Main Menu\MainMenuButtons.png" />
+    <None Include="Resources\Menus\Main Menu\MainMenuHighlighter.png" />
+    <None Include="Resources\Menus\Menu Selection Player\Gamepad.png" />
+    <None Include="Resources\Menus\Menu Selection Player\Keyboard.png" />
+    <None Include="Resources\Menus\Menu Selection Player\MenuCharacterSelectorBackground.png" />
+    <None Include="Resources\Menus\Menu Selection Player\PandaSelector.png" />
+    <None Include="Resources\Menus\Menu Selection Player\SuricataSelector.png" />
+    <None Include="Resources\Menus\Pause Menu\PauseMenuBackground.png" />
+    <None Include="Resources\Menus\Pause Menu\PauseMenuButtons.png" />
+    <None Include="Resources\Menus\Pause Menu\PauseMenuHighlighter.png" />
+    <None Include="Resources\Menus\Sound Menu\SoundLevel.png" />
+    <None Include="Resources\Menus\Sound Menu\SoundMenuBackground.png" />
+    <None Include="Resources\Menus\Sound Menu\SoundMenuButtons.png" />
+    <None Include="Resources\Menus\Sound Menu\SoundMenuHighlighter.png" />
+    <None Include="Resources\Sounds\Characters\Players\groundHit.mp3" />
+    <None Include="Resources\Sounds\Characters\Players\Running.mp3" />
+    <None Include="Resources\Sounds\Characters\Players\Sword (1).mp3" />
+    <None Include="Resources\Sounds\Characters\Players\Sword (2).mp3" />
+    <None Include="Resources\Sounds\Characters\Players\Sword (3).mp3" />
+    <None Include="Resources\Sounds\Levels\Level One Japan\Section One\Japanese War Music.mp3" />
+    <None Include="Resources\Sounds\Levels\Level One Japan\Section One\Wind.mp3" />
+    <None Include="Resources\Sounds\Levels\SMainMenu\08 - Crushcrushcrush.mp3" />
+    <None Include="Resources\Sounds\Levels\SMainMenu\Menu Seleccion (1).mp3" />
+    <None Include="Resources\Sounds\Levels\SMainMenu\Menu Seleccion (2).mp3" />
+    <None Include="Resources\Sounds\Levels\SMainMenu\Menu Seleccion (3).mp3" />
+    <None Include="Resources\Sounds\Levels\SMainMenu\Menu Seleccion (4).mp3" />
+    <None Include="Resources\UI\HealthBarSkull.png" />
+    <None Include="Resources\UI\MeerkatFacesStates.png" />
+    <None Include="Resources\UI\Numbers.png" />
+    <None Include="Resources\UI\PandaFacesStates.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
